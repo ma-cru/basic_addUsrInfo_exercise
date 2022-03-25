@@ -29,14 +29,6 @@ function App() {
 
   }
 
-  // const processUserInfo = msg => {
-
-  //   console.log(msg);
-
-  //   setUser(msg);
-
-  // }
-
   return (
 
     <Card>
