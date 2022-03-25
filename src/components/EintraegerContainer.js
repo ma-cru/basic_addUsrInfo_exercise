@@ -76,7 +76,7 @@ const EintraegerContainer = props => {
             <div className={initModalVis}>
                 <ModalMessage
                     message={props.message}
-                    modalMsg={`Names must be of 1 or more letters long and ages of at least one number above 0. You, however, entered ${message.name} for your name and ${message.age} for your age. Please try again with entries that match the required format.`}
+                    modalMsg={<span>Names must be of 1 or more letters long and ages of at least one number above 0.<br/><br/>You, however, entered {message.name} for your name and {message.age} for your age.<br/><br/>Please try again with entries that match the required format.</span>}
                     modalToggler={toggleModalVis}
                 />
             </div>
