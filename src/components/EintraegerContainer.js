@@ -21,14 +21,6 @@ const EintraegerContainer = props => {
 
         console.log(initName);
 
-        // setMessage(prevMessage => {
-
-        //     console.log(prevMessage);
-
-        //     return { name: initName, ...prevMessage};
-
-        //   });
-
     }
 
     const ageHandler = event => {
@@ -38,13 +30,6 @@ const EintraegerContainer = props => {
 
         console.log(initAge);
 
-        // setMessage(prevMessage => {
-
-        //     console.log(prevMessage);
-
-        //     return { age: initAge, ...prevMessage};
-
-        //   });
     }
 
     const submissionHandler = event => {
@@ -101,9 +86,3 @@ const EintraegerContainer = props => {
 }
 
 export default EintraegerContainer;
-
-/*
-
-
-
-*/
