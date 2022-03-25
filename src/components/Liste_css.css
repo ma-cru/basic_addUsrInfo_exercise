@@ -1,0 +1,10 @@
+.listeContainer {
+    width: 90%;
+    min-height: 12em;
+    height: 40%;
+    padding: 0.6em;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 4px;
+    margin-top: 0.5em;
+}
